@@ -95,3 +95,11 @@ docker image rm <nom>
 ```
 docker system prune
 ```
+
+## Pour build une image à partir d'un dockerfile
+
+Il faut que le dockerfile soit à la racine du projet
+
+```
+docker build . -t <nom_de_l_image>
+```
